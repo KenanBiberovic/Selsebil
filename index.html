@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/2bbe09d83f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Selsebil</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background"></div>
+      <div class="header">
+        <img class="selsebil-logo" src="images/SelsebilLogo.jpg" alt="" />
+        <h1 class="opis" id="opis">Škola Kur'ana Selsebil Novi Pazar</h1>
+        <img class="islam-logo" src="images/islamLOGO.avif"" />
+      </div>
+      <div class="nav">
+        <button id="home-btn" class="home-btn">Pocetna strana</button>
+        <button id="kurs" class="courses-btn">Kursevi</button>
+        <button id="sufara-btn" class="quiz-btn">Sufara</button>
+        <select
+          class="dropmenu"
+          name="links"
+          id="select-links"
+          size="1"
+          onchange="if(this.value!='')window.open(this.value);"
+        >
+          <option value="">Lekcije</option>
+          <option
+            value="https://www.youtube.com/watch?v=5LEuzjvtzGg&t=1s"
+            target="_blank"
+          >
+            Lekcija 1
+          </option>
+          <option value="https://www.youtube.com/watch?v=tNweU_I5tYQ&t=6s">
+            Lekcija 2
+          </option>
+          <option value="https://www.youtube.com/watch?v=5VCtmgnwW_g&t=22s">
+            Lekcija 3
+          </option>
+          <option value="https://www.youtube.com/watch?v=dFJFWkPNGVc">
+            Lekcija 4 i 5
+          </option>
+          <option value="https://www.youtube.com/watch?v=fdTNIkgsta0&t=1s">
+            Lekcija 6
+          </option>
+          <option value="https://www.youtube.com/watch?v=pRhR9CrSLqU">
+            Lekcija 7
+          </option>
+          <option value="https://www.youtube.com/watch?v=11-HOOrOpBU&t=1s">
+            Lekcija 8
+          </option>
+          <option value="https://www.youtube.com/watch?v=7zzktjkLfh0">
+            Lekcija 9
+          </option>
+          <option value="https://www.youtube.com/watch?v=Ib8U6qZ2Jvo">
+            Lekcija 10
+          </option>
+          <option value="https://www.youtube.com/watch?v=mFvvoWPCHJU">
+            Lekcija 11
+          </option>
+          <option value="https://www.youtube.com/watch?v=BNrNRiNyeME">
+            Lekcija 12
+          </option>
+          <option value="https://www.youtube.com/watch?v=99VaA-pmmAc">
+            Lekcija 13
+          </option>
+          <option value="https://www.youtube.com/watch?v=oUrsGRBt8ic&t=2s">
+            Lekcija 14
+          </option>
+          <option value="https://www.youtube.com/watch?v=Cl4cm1tZqPE&t=2s">
+            Lekcija 15
+          </option>
+          <option value="https://www.youtube.com/watch?v=3W00sufq_UA">
+            Lekcija 16
+          </option>
+          <option value="https://www.youtube.com/watch?v=u-0RSk0OkZk">
+            Lekcija 17
+          </option>
+          <option value="https://www.youtube.com/watch?v=vgCHC5OOXZ4">
+            Lekcija 18
+          </option>
+        </select>
+        <button id="about" class="about-btn">About</button>
+        <button id="contact" class="contact-btn">Contact</button>
+      </div>
+    </div>
+    <div class="main">
+      <h1 id="pocetna" class="animated-text">
+        „Pravi vjernici su samo oni čija se srca strahom ispune kada se Allah
+        spomene, a kada im se riječi njegove kazuju, vjerovanje im učvršćuju i
+        samo se na Gospodara svoga oslanjaju. Oni koji namaz obavljaju i dio od
+        onoga što im mi dajemo udjeljuju, oni su zbilja pravi vjernici, njih
+        počasti i oprost i obilje plemenito kod Gospodara njihova čekaju.“
+        (El-Enfal, 2-4)
+      </h1>
+    </div>
+    <div class="courses-title"><h1 id="kursevi">Kursevi</h1></div>
+    <div class="courses">
+      <div class="sufara">
+        <h1>Učenje harfova – arapskog pisma.</h1>
+        <h3>
+          Učenje harfova je važno za uspješno učenje jezika koji koristi pismo.
+          Potrebno je početi s osnovama, naučiti kako se svaki harf piše i
+          izgovara, koristiti primjere riječi koje počinju s tim harfom i
+          povećavati vokabular postepeno. Uz uporni rad i vježbu, može se brzo
+          savladati poznavanje harfova.
+        </h3>
+      </div>
+      <div class="tedzvid">
+        <h1>Učenje tedžvida – pravilnog učenja Kur'ana.</h1>
+        <h3>
+          Tedžvid se odnosi na pravilno izgovaranje harfova u arapskom jeziku.
+          Naučiti tedžvid podrazumijeva proučavanje pravila izgovaranja harfova
+          i primjenu tih pravila u čitanju i učenju Kur'ana.
+        </h3>
+      </div>
+      <div class="dzuz">
+        <h1>Učenje napamet Amme džuza.</h1>
+        <h3>
+          Amme džuz se odnosi na posljednjih 30 poglavlja u Kur'anu i učenje
+          napamet ovih poglavlja je važan dio učenja i proučavanja Kur'ana.
+          Učenje napamet Amme džuza zahtijeva redovno i predano učenje, počevši
+          od naučavanja osnovnih pravila tedžvida, do postepenog usvajanja.
+          poglavlja
+        </h3>
+      </div>
+      <div class="hifz">
+        <h1>Učenje hifza.</h1>
+        <h3>
+          Hifz se odnosi na učenje napamet cijelog Kur'ana. Zahtijeva predanost,
+          upornost i disciplinu. Potrebno je početi s učenjem osnovnih pravila
+          tedžvida, učiti jednu stranicu u isto vrijeme, ponavljati naučene
+          dijelove i slušati recitaciju Kur'ana. Najbolje je učiti od iskusnog
+          učitelja. Hifz se uči postepeno i može potrajati nekoliko godina.
+        </h3>
+      </div>
+    </div>
+
+    <div class="sufara-title">
+      <h1 id="harfovi-section">Harfovi sa pravilnim izgovorom</h1>
+    </div>
+    <section class="FlexContainer">
+      <div class="div1"><button id="alef">ﺍ</button></div>
+      <div class="div2"><button id="beh">ﺏ</button></div>
+      <div class="div3"><button id="ta">ﺕ</button></div>
+      <div class="div4"><button id="">ﺙ</button></div>
+      <div class="div5"><button id="">ﺝ</button></div>
+      <!-- // -->
+      <div class="div6"><button id="">ﺡ</button></div>
+      <div class="div7"><button id="">ﺥ</button></div>
+      <div class="div8"><button id="">ﺩ</button></div>
+      <div class="div9"><button id="">ﺫ</button></div>
+      <div class="div10"><button id="">ﺭ</button></div>
+      <!--  -->
+      <div class="div11"><button id="">ﺯ</button></div>
+      <div class="div12"><button id="">ﺱ</button></div>
+      <div class="div13"><button id="">ﺵ</button></div>
+      <div class="div14"><button id="">ﺹ</button></div>
+      <div class="div15"><button id="">ﺽ</button></div>
+      <!--  -->
+      <div class="div16"><button id="">ﻁ</button></div>
+      <div class="div17"><button id="">ﻅ</button></div>
+      <div class="div18"><button id="">ﻉ</button></div>
+      <div class="div19"><button id="">ﻍ</button></div>
+      <div class="div20"><button id="">ﻑ</button></div>
+      <!--  -->
+      <div class="div21"><button id="">ﻕ</button></div>
+      <div class="div22"><button id="">ﻙ</button></div>
+      <div class="div23"><button id="">ﻝ</button></div>
+      <div class="div24"><button id="">ﻡ</button></div>
+      <div class="div25"><button id="">ﻥ</button></div>
+      <!--  -->
+      <div class="div27"><button id="">ﻭ</button></div>
+      <div class="div26"><button id="">ﻩ</button></div>
+      <div class="div29"><button id="">ء</button></div>
+      <div class="div28"><button id="">ﻱ</button></div>
+    </section>
+    <audio id="alefsound" src="sounds/alef.mp3"></audio>
+
+    <!-- <div class="lekcije-title">
+      <h1 class="lekcije-main-title">Lekcije</h1> -->
+    <!-- </div> -->
+    <!-- <div class="lekcije">
+      <div class="lekcije-yt">
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/5LEuzjvtzGg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/tNweU_I5tYQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/5VCtmgnwW_g"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/dFJFWkPNGVc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/fdTNIkgsta0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/pRhR9CrSLqU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/11-HOOrOpBU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/7zzktjkLfh0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/Ib8U6qZ2Jvo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/mFvvoWPCHJU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/BNrNRiNyeME"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/99VaA-pmmAc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/oUrsGRBt8ic"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/Cl4cm1tZqPE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/3W00sufq_UA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/u-0RSk0OkZk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="250"
+          height="320"
+          src="https://www.youtube.com/embed/vgCHC5OOXZ4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div> -->
+
+    <div class="about-title"><h1 id="o-nama">O nama</h1></div>
+    <div id="about-section" class="about">
+      <div class="about-right">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="627"
+              height="600"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=8%20mart,%20Novi%20Pazar,%20Serbia&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+            ><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 507px;
+                width: 627px;
+                margin-left: 20px;
+              }</style
+            ><a href="https://www.embedgooglemap.net"></a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 600px;
+                width: 627px;
+                margin-top: 70px;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+      <div id="about-text" class="about-left">
+        <p>
+          Škola kur'ana u Novom Pazaru, koju vodi hafiz Kabil Hajdaragic, već
+          duže vreme predstavlja značajno mesto za učenje i usavršavanje znanja
+          iz islamske vjere. Ova škola je stekla reputaciju kvalitetnog i
+          pouzdanog mjesta za učenje Kur'ana, a njeni brojni polaznici potvrđuju
+          da je hafiz Kabil Hajdaragic veoma posvećen i ima odličan pristup
+          prema njima.
+          <br />
+          <br />
+          Kabil Hajdaragic vodi školu Kur'ana u Novom Pazaru već duže vremena,
+          što je i razlog zašto se škola toliko dobro razvila i stekla veliku
+          popularnost među muslimanima u tom području. Njegov rad se ogleda u
+          tome što se trudi da svakom polazniku pristupi individualno i da ga
+          usmjeri na najbolji mogući način. On vodi računa da svi polaznici
+          razumiju gradivo, a ako je nekome potrebno dodatno objašnjenje, rado
+          će mu ga pružiti.<br />
+          <br />
+          Uz to, hafiz Kabil Hajdaragic je veoma stručan u svom poslu, što se
+          ogleda u njegovom dubokom poznavanju Kur'ana i islamske vjere. Njegovo
+          znanje i iskustvo čine ga odličnim učiteljem i mentorom, što je jedan
+          od razloga zašto su mu polaznici toliko privrženi. <br />
+          <br />
+          U školi Kur'ana u Novom Pazaru se pored učenja Kur'ana, uče i drugi
+          važni aspekti islamske vjere, kao što su molitva, poslušnost
+          roditeljima, moralne vrijednosti i druge stvari koje su bitne za
+          svakog muslimana.
+          <br />
+          <br />
+          Sve u svemu, škola Kur'ana u Novom Pazaru, koju vodi hafiz Kabil
+          Hajdaragic, predstavlja odlično mjesto za učenje i usavršavanje znanja
+          iz islamske vjere. Njegov odličan pristup i stručnost su razlog zašto
+          ova škola ima veliki broj polaznika i što se već duže vrijeme uspješno
+          bavi svojom djelatnošću.
+        </p>
+        <i id="telephone" class="fa-solid fa-phone"> &nbsp;060 7325998 </i>
+        <br />
+
+        <i class="fa-solid fa-clock">&nbsp;&nbsp;00-24</i><br />
+        <i class="fa-solid fa-location-dot">
+          &nbsp;&nbsp;8 mart, Novi Pazar, Serbia</i
+        ><br />
+        <i class="fa-solid fa-envelope"></i><br />
+        <i class="fa-brands fa-facebook"
+          ><a href="https://www.facebook.com/skSelsebil " the target="”_blank”"
+            >&nbsp;&nbsp;facebook</a
+          ></i
+        ><br />
+      </div>
+    </div>
+    <div id="mobile-message"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>

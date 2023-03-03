@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  color: rgba#2b2c34;
+  box-sizing: border-box;
+}
+h1 {
+  color: #2b2c34;
+}
+
+.header {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.selsebil-logo {
+  width: 100px;
+  height: 110px;
+}
+.islam-logo {
+  width: 150px;
+  height: 110px;
+}
+.nav {
+  width: 100%;
+  height: 7%;
+  background-color: #d1d1e9;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-left: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: #d1d1e9;
+  border-radius: 3px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: #2b2c34;
+}
+.header .button:hover {
+  background-color: #d1d1e9a6;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animated-text {
+  margin-top: 150px;
+  position: relative;
+  display: inline-block;
+  animation: animate-text 2s linear infinite;
+  width: 50%;
+  height: 40%;
+}
+
+@keyframes animate-text {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.courses-title {
+  width: 100%;
+  height: 20%;
+  background-color: #d1d1e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.courses {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 3fr) 1fr 0;
+  grid-template-rows: 1fr repeat(2, 5fr) 1fr 0;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  text-align: center;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.sufara {
+  text-align: center;
+  grid-area: 2 / 2 / 3 / 3;
+  width: 3fr;
+  height: 5fr;
+  border: 3px solid #7ceeff96;
+  border-radius: 7px;
+  background-color: #d1d1e9;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.tedzvid {
+  text-align: center;
+  grid-area: 2 / 3 / 3 / 4;
+  width: 3fr;
+  height: 5fr;
+  border: 3px solid #7ceeff96;
+  border-radius: 7px;
+  background-color: #d1d1e9;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.dzuz {
+  text-align: center;
+  grid-area: 3 / 2 / 4 / 3;
+  width: 3fr;
+  height: 5fr;
+  border: 3px solid #7ceeff96;
+  border-radius: 7px;
+  background-color: #d1d1e9;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.hifz {
+  text-align: center;
+  grid-area: 3 / 3 / 4 / 4;
+  width: 3fr;
+  height: 5fr;
+  border: 3px solid #7ceeff96;
+  border-radius: 7px;
+  background-color: #d1d1e9;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+h3 {
+  margin: 40px 10px;
+  color: #2b2c34;
+}
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: center;
+  width: 65%;
+  height: 90vh;
+  overflow: auto;
+  flex-direction: row-reverse;
+}
+
+.FlexContainer div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: all 0.2ms ease-in-out;
+}
+.FlexContainer div button:hover {
+  background-color: #d1d1e9cc;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.FlexContainer div button {
+  background-color: #d1d1e9;
+  font-size: 40px;
+  font-weight: 600;
+  box-shadow: none;
+  width: 100%;
+  height: 100%;
+  color: #2b2c34;
+}
+
+.sufara-title {
+  width: 100%;
+  height: 20%;
+  background-color: #d1d1e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+.about {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-title {
+  margin-top: 40px;
+  width: 100%;
+  height: 20%;
+  background-color: #d1d1e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 12px 11px -8px rgba(102, 203, 243, 0.61);
+}
+
+.about-right {
+  width: 48%;
+  height: 80vh;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.about-right h2 {
+  font-size: 30px;
+  color: black;
+}
+.about-left {
+  width: 50%;
+  height: 80vh;
+  padding-top: 150px;
+  color: 2b2c34;
+}
+.ulica {
+  font-size: 20px;
+  color: black;
+}
+.non-phone {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #mobile-message {
+    background-color: #f44336;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  body {
+    display: none;
+  }
+}
+.lekcije {
+  width: 100%;
+  height: 100vh;
+}
+.lekcije-title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1d1e9;
+  color: #2b2c34;
+}
+.dropmenu {
+  width: 150px;
+  height: 50px;
+  background-color: #d1d1e9;
+  border-radius: 3px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: #2b2c34;
+}
